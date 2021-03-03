@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104AC9AA25C055BA0003F3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104AC9A925C055BA0003F3BD /* AppDelegate.swift */; };
+		104AC9AC25C055BA0003F3BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104AC9AB25C055BA0003F3BD /* SceneDelegate.swift */; };
+		104AC9AE25C055BA0003F3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104AC9AD25C055BA0003F3BD /* ViewController.swift */; };
+		104AC9B125C055BA0003F3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104AC9AF25C055BA0003F3BD /* Main.storyboard */; };
+		104AC9B325C055BC0003F3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104AC9B225C055BC0003F3BD /* Assets.xcassets */; };
+		104AC9B625C055BC0003F3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104AC9B425C055BC0003F3BD /* LaunchScreen.storyboard */; };
+		104AC9C125C055BC0003F3BD /* Semenova_GymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104AC9C025C055BC0003F3BD /* Semenova_GymTests.swift */; };
+		104AC9CC25C055BC0003F3BD /* Semenova_GymUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104AC9CB25C055BC0003F3BD /* Semenova_GymUITests.swift */; };
+		104AC9DD25C05B710003F3BD /* Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 104AC9DC25C05B710003F3BD /* Font.ttf */; };
+		CE689D2A25EE686B00FCA798 /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689D2925EE686B00FCA798 /* StepTwoViewController.swift */; };
+		CE689D2F25EE69A500FCA798 /* StepThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689D2E25EE69A500FCA798 /* StepThreeViewController.swift */; };
+		CE689D3425EE69C500FCA798 /* StepFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689D3325EE69C500FCA798 /* StepFourViewController.swift */; };
+		CE689D3925EE749E00FCA798 /* StepFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689D3825EE749E00FCA798 /* StepFiveViewController.swift */; };
+		CE689D3E25EE751400FCA798 /* UserProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE689D3D25EE751400FCA798 /* UserProperty.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		104AC9BD25C055BC0003F3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 104AC99E25C055BA0003F3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104AC9A525C055BA0003F3BD;
+			remoteInfo = "Semenova Gym";
+		};
+		104AC9C825C055BC0003F3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 104AC99E25C055BA0003F3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104AC9A525C055BA0003F3BD;
+			remoteInfo = "Semenova Gym";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104AC9A625C055BA0003F3BD /* Semenova Gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Semenova Gym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104AC9A925C055BA0003F3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		104AC9AB25C055BA0003F3BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		104AC9AD25C055BA0003F3BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		104AC9B025C055BA0003F3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		104AC9B225C055BC0003F3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		104AC9B525C055BC0003F3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		104AC9B725C055BC0003F3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104AC9BC25C055BC0003F3BD /* Semenova GymTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Semenova GymTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104AC9C025C055BC0003F3BD /* Semenova_GymTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semenova_GymTests.swift; sourceTree = "<group>"; };
+		104AC9C225C055BC0003F3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104AC9C725C055BC0003F3BD /* Semenova GymUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Semenova GymUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104AC9CB25C055BC0003F3BD /* Semenova_GymUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semenova_GymUITests.swift; sourceTree = "<group>"; };
+		104AC9CD25C055BC0003F3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104AC9DC25C05B710003F3BD /* Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Font.ttf; path = "../../../Downloads/Session-1/Font.ttf"; sourceTree = "<group>"; };
+		CE689D2925EE686B00FCA798 /* StepTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
+		CE689D2E25EE69A500FCA798 /* StepThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepThreeViewController.swift; sourceTree = "<group>"; };
+		CE689D3325EE69C500FCA798 /* StepFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepFourViewController.swift; sourceTree = "<group>"; };
+		CE689D3825EE749E00FCA798 /* StepFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepFiveViewController.swift; sourceTree = "<group>"; };
+		CE689D3D25EE751400FCA798 /* UserProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProperty.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		104AC9A325C055BA0003F3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104AC9B925C055BC0003F3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104AC9C425C055BC0003F3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104AC99D25C055BA0003F3BD = {
+			isa = PBXGroup;
+			children = (
+				104AC9A825C055BA0003F3BD /* Semenova Gym */,
+				104AC9BF25C055BC0003F3BD /* Semenova GymTests */,
+				104AC9CA25C055BC0003F3BD /* Semenova GymUITests */,
+				104AC9A725C055BA0003F3BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		104AC9A725C055BA0003F3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				104AC9A625C055BA0003F3BD /* Semenova Gym.app */,
+				104AC9BC25C055BC0003F3BD /* Semenova GymTests.xctest */,
+				104AC9C725C055BC0003F3BD /* Semenova GymUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		104AC9A825C055BA0003F3BD /* Semenova Gym */ = {
+			isa = PBXGroup;
+			children = (
+				104AC9DC25C05B710003F3BD /* Font.ttf */,
+				104AC9A925C055BA0003F3BD /* AppDelegate.swift */,
+				104AC9AB25C055BA0003F3BD /* SceneDelegate.swift */,
+				104AC9AD25C055BA0003F3BD /* ViewController.swift */,
+				104AC9AF25C055BA0003F3BD /* Main.storyboard */,
+				104AC9B225C055BC0003F3BD /* Assets.xcassets */,
+				104AC9B425C055BC0003F3BD /* LaunchScreen.storyboard */,
+				104AC9B725C055BC0003F3BD /* Info.plist */,
+				CE689D2925EE686B00FCA798 /* StepTwoViewController.swift */,
+				CE689D2E25EE69A500FCA798 /* StepThreeViewController.swift */,
+				CE689D3325EE69C500FCA798 /* StepFourViewController.swift */,
+				CE689D3825EE749E00FCA798 /* StepFiveViewController.swift */,
+				CE689D3D25EE751400FCA798 /* UserProperty.swift */,
+			);
+			path = "Semenova Gym";
+			sourceTree = "<group>";
+		};
+		104AC9BF25C055BC0003F3BD /* Semenova GymTests */ = {
+			isa = PBXGroup;
+			children = (
+				104AC9C025C055BC0003F3BD /* Semenova_GymTests.swift */,
+				104AC9C225C055BC0003F3BD /* Info.plist */,
+			);
+			path = "Semenova GymTests";
+			sourceTree = "<group>";
+		};
+		104AC9CA25C055BC0003F3BD /* Semenova GymUITests */ = {
+			isa = PBXGroup;
+			children = (
+				104AC9CB25C055BC0003F3BD /* Semenova_GymUITests.swift */,
+				104AC9CD25C055BC0003F3BD /* Info.plist */,
+			);
+			path = "Semenova GymUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		104AC9A525C055BA0003F3BD /* Semenova Gym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104AC9D025C055BC0003F3BD /* Build configuration list for PBXNativeTarget "Semenova Gym" */;
+			buildPhases = (
+				104AC9A225C055BA0003F3BD /* Sources */,
+				104AC9A325C055BA0003F3BD /* Frameworks */,
+				104AC9A425C055BA0003F3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Semenova Gym";
+			productName = "Semenova Gym";
+			productReference = 104AC9A625C055BA0003F3BD /* Semenova Gym.app */;
+			productType = "com.apple.product-type.application";
+		};
+		104AC9BB25C055BC0003F3BD /* Semenova GymTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104AC9D325C055BC0003F3BD /* Build configuration list for PBXNativeTarget "Semenova GymTests" */;
+			buildPhases = (
+				104AC9B825C055BC0003F3BD /* Sources */,
+				104AC9B925C055BC0003F3BD /* Frameworks */,
+				104AC9BA25C055BC0003F3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				104AC9BE25C055BC0003F3BD /* PBXTargetDependency */,
+			);
+			name = "Semenova GymTests";
+			productName = "Semenova GymTests";
+			productReference = 104AC9BC25C055BC0003F3BD /* Semenova GymTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		104AC9C625C055BC0003F3BD /* Semenova GymUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104AC9D625C055BC0003F3BD /* Build configuration list for PBXNativeTarget "Semenova GymUITests" */;
+			buildPhases = (
+				104AC9C325C055BC0003F3BD /* Sources */,
+				104AC9C425C055BC0003F3BD /* Frameworks */,
+				104AC9C525C055BC0003F3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				104AC9C925C055BC0003F3BD /* PBXTargetDependency */,
+			);
+			name = "Semenova GymUITests";
+			productName = "Semenova GymUITests";
+			productReference = 104AC9C725C055BC0003F3BD /* Semenova GymUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		104AC99E25C055BA0003F3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					104AC9A525C055BA0003F3BD = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					104AC9BB25C055BC0003F3BD = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 104AC9A525C055BA0003F3BD;
+					};
+					104AC9C625C055BC0003F3BD = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 104AC9A525C055BA0003F3BD;
+					};
+				};
+			};
+			buildConfigurationList = 104AC9A125C055BA0003F3BD /* Build configuration list for PBXProject "Semenova Gym" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 104AC99D25C055BA0003F3BD;
+			productRefGroup = 104AC9A725C055BA0003F3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				104AC9A525C055BA0003F3BD /* Semenova Gym */,
+				104AC9BB25C055BC0003F3BD /* Semenova GymTests */,
+				104AC9C625C055BC0003F3BD /* Semenova GymUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		104AC9A425C055BA0003F3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104AC9B625C055BC0003F3BD /* LaunchScreen.storyboard in Resources */,
+				104AC9B325C055BC0003F3BD /* Assets.xcassets in Resources */,
+				104AC9B125C055BA0003F3BD /* Main.storyboard in Resources */,
+				104AC9DD25C05B710003F3BD /* Font.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104AC9BA25C055BC0003F3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104AC9C525C055BC0003F3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		104AC9A225C055BA0003F3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104AC9AE25C055BA0003F3BD /* ViewController.swift in Sources */,
+				CE689D3E25EE751400FCA798 /* UserProperty.swift in Sources */,
+				CE689D2F25EE69A500FCA798 /* StepThreeViewController.swift in Sources */,
+				CE689D3425EE69C500FCA798 /* StepFourViewController.swift in Sources */,
+				104AC9AA25C055BA0003F3BD /* AppDelegate.swift in Sources */,
+				104AC9AC25C055BA0003F3BD /* SceneDelegate.swift in Sources */,
+				CE689D2A25EE686B00FCA798 /* StepTwoViewController.swift in Sources */,
+				CE689D3925EE749E00FCA798 /* StepFiveViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104AC9B825C055BC0003F3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104AC9C125C055BC0003F3BD /* Semenova_GymTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104AC9C325C055BC0003F3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104AC9CC25C055BC0003F3BD /* Semenova_GymUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		104AC9BE25C055BC0003F3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104AC9A525C055BA0003F3BD /* Semenova Gym */;
+			targetProxy = 104AC9BD25C055BC0003F3BD /* PBXContainerItemProxy */;
+		};
+		104AC9C925C055BC0003F3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104AC9A525C055BA0003F3BD /* Semenova Gym */;
+			targetProxy = 104AC9C825C055BC0003F3BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		104AC9AF25C055BA0003F3BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104AC9B025C055BA0003F3BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		104AC9B425C055BC0003F3BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104AC9B525C055BC0003F3BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		104AC9CE25C055BC0003F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		104AC9CF25C055BC0003F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		104AC9D125C055BC0003F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Semenova Gym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenova-Gym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		104AC9D225C055BC0003F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Semenova Gym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenova-Gym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		104AC9D425C055BC0003F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Semenova GymTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenova-GymTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semenova Gym.app/Semenova Gym";
+			};
+			name = Debug;
+		};
+		104AC9D525C055BC0003F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Semenova GymTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenova-GymTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semenova Gym.app/Semenova Gym";
+			};
+			name = Release;
+		};
+		104AC9D725C055BC0003F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Semenova GymUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenova-GymUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Semenova Gym";
+			};
+			name = Debug;
+		};
+		104AC9D825C055BC0003F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Semenova GymUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenova-GymUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Semenova Gym";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		104AC9A125C055BA0003F3BD /* Build configuration list for PBXProject "Semenova Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104AC9CE25C055BC0003F3BD /* Debug */,
+				104AC9CF25C055BC0003F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104AC9D025C055BC0003F3BD /* Build configuration list for PBXNativeTarget "Semenova Gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104AC9D125C055BC0003F3BD /* Debug */,
+				104AC9D225C055BC0003F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104AC9D325C055BC0003F3BD /* Build configuration list for PBXNativeTarget "Semenova GymTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104AC9D425C055BC0003F3BD /* Debug */,
+				104AC9D525C055BC0003F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104AC9D625C055BC0003F3BD /* Build configuration list for PBXNativeTarget "Semenova GymUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104AC9D725C055BC0003F3BD /* Debug */,
+				104AC9D825C055BC0003F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 104AC99E25C055BA0003F3BD /* Project object */;
+}
